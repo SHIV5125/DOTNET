@@ -21,3 +21,4 @@ use command add-migration initial it will add folder migration
 use another command update-database
 run project
 write class name after local host
+find under view sql explorer you can find databses

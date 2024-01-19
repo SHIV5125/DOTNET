@@ -1,0 +1,23 @@
+OPEN visual studio 
+create new project ASP.NET CORE WEB APP
+create model folder in project
+In model create class
+write properties of class using prop n tab
+ex.public int ID {get; set;}
+create new folder under pages
+add new folder ex.class folder(user)
+write click on user folder 
+choose add 
+after that click on new scaffolded in that choose razor pages under common option
+select Razor pages using entity framework (CURD) and add it
+choose model class as project class
+in data context class 
+click on + button  it will create new on 
+or you can go in tools pacakge manager to install pacakge
+user has all values ganerate automatically
+go to tools 
+sele ct NUGet package manager in that select package manager console
+use command add-migration initial it will add folder migration 
+use another command update-database
+run project
+write class name after local host
